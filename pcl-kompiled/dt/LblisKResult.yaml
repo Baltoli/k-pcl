@@ -1,0 +1,17 @@
+default:
+  action:
+  - 3350
+  - []
+specializations:
+- - inj{SortChannel{}, SortExp{}}
+  - action:
+    - 3351
+    - []
+  - [STRING.String]
+- - inj{SortInt{}, SortExp{}}
+  - action:
+    - 3352
+    - []
+  - [INT.Int]
+sort: STRING.String
+occurrence: ['1']

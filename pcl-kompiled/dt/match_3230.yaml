@@ -1,0 +1,50 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'generatedCounter'-GT-'{}
+      - default: null
+        specializations:
+        - - Lbl'-LT-'threads'-GT-'{}
+          - default: null
+            specializations:
+            - - Lbl'-LT-'startup'-GT-'{}
+              - default: fail
+                specializations:
+                - - kseq{}
+                  - default: fail
+                    specializations:
+                    - - inj{SortProcess{}, SortKItem{}}
+                      - action:
+                        - 3230
+                        - - - ['0', '4', '1']
+                            - INT.Int
+                          - - ['1', '1']
+                            - STRING.String
+                          - - ['3', '1']
+                            - STRING.String
+                          - - ['5', '1']
+                            - STRING.String
+                          - - ['0', '0', '0', '1']
+                            - STRING.String
+                          - - ['1', '0', '0', '1']
+                            - STRING.String
+                      - [STRING.String]
+                    sort: STRING.String
+                    occurrence: ['0', '0', '0', '1']
+                  - [STRING.String, STRING.String]
+                sort: STRING.String
+                occurrence: ['0', '0', '1']
+              - [STRING.String]
+            sort: STRING.String
+            occurrence: ['0', '1']
+          - [MAP.Map]
+        sort: STRING.String
+        occurrence: ['2', '1']
+      - [INT.Int]
+    sort: STRING.String
+    occurrence: ['4', '1']
+  - [STRING.String, STRING.String, STRING.String, STRING.String, STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

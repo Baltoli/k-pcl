@@ -1,0 +1,44 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'startup'-GT-'{}
+      - default: fail
+        specializations:
+        - - kseq{}
+          - default: fail
+            specializations:
+            - - inj{SortExternals{}, SortKItem{}}
+              - default: fail
+                specializations:
+                - - Lbl'Stop'List'LBraQuotUndsUndsUnds'PCL-SYNTAX'Unds'Externals'Unds'External'Unds'Externals'QuotRBraUnds'Externals{}
+                  - action:
+                    - 3231
+                    - - - ['1', '1']
+                        - STRING.String
+                      - - ['2', '1']
+                        - STRING.String
+                      - - ['3', '1']
+                        - STRING.String
+                      - - ['4', '1']
+                        - STRING.String
+                      - - ['5', '1']
+                        - STRING.String
+                      - - ['1', '0', '0', '1']
+                        - STRING.String
+                  - []
+                sort: STRING.String
+                occurrence: ['0', '0', '0', '0', '1']
+              - [STRING.String]
+            sort: STRING.String
+            occurrence: ['0', '0', '0', '1']
+          - [STRING.String, STRING.String]
+        sort: STRING.String
+        occurrence: ['0', '0', '1']
+      - [STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String, STRING.String, STRING.String, STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']
