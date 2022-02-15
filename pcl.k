@@ -118,7 +118,7 @@ module PCL
         </thread>
     </threads>
 
-  rule <startup> E ES:Externals => E ~> ES ...</startup>
+  rule <startup> E ES:Externals P:Process => E ~> ES ~> P ...</startup>
   rule <startup> .Externals => . ...</startup>
   rule
     <startup> external C ; => . ...</startup>
